@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Emp ID"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/eid"
+                android:layout_weight="0.5"/>
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Emp Name"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/ename"
+                android:layout_weight="0.5"/>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Emp Desig"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/edesig"
+                android:layout_weight="0.5"/>
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Emp Dept"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/edept"
+                android:layout_weight="0.5"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
